@@ -1,0 +1,53 @@
+import type { Product } from './Types/Product'
+
+export const SampleProducts: Product[] = [
+  {
+    name: 'Nike slim shirt',
+    slug: 'Nike slim shirt',
+    category: 'shirt',
+    image: '../images/p1.jpg',
+    price: 120,
+    countinstock: 10,
+    brand: 'Nike',
+    rating: 4.5,
+    numReviews: 10,
+    description: 'high quality shirt',
+  },
+
+  {
+    name: 'Adidas slim shirt',
+    slug: 'Adidas slim shirt',
+    category: 'shirt',
+    image: '../images/p2.jpg',
+    price: 121,
+    countinstock: 10,
+    brand: 'Adidas',
+    rating: 5,
+    numReviews: 10,
+    description: 'high quality shirt',
+  },
+  {
+    name: 'Reebok slim shirt',
+    slug: 'Reebok slim shirt',
+    category: 'shirt',
+    image: '../images/p3.jpg',
+    price: 122,
+    countinstock: 20,
+    brand: 'Nike',
+    rating: 4.5,
+    numReviews: 5,
+    description: 'high quality shirt',
+  },
+  {
+    name: 'only slim shirt',
+    slug: 'only slim shirt',
+    category: 'shirt',
+    image: '../images/p4.jpg',
+    price: 120,
+    countinstock: 10,
+    brand: 'only',
+    rating: 4.5,
+    numReviews: 10,
+    description: 'high quality shirt',
+  },
+]
